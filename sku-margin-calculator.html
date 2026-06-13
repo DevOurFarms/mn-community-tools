@@ -110,7 +110,7 @@
       var clr=gm>=40?'#34d399':gm>=25?'#fbbf24':'#f87171';
       document.getElementById('bar').style.width=pct+'%';
       document.getElementById('bar').style.background=clr;
-      document.getElementById('healthLbl').textContent=gm>=40?'Strong':'gm>=25?'Marginal - review costs':'Tight - needs attention';
+        document.getElementById('healthLbl').textContent=gm>=40?'Strong':gm>=25?'Marginal - review costs':'Tight - needs attention';
       var msg='';
       if(gm<25)msg='Warning: Gross margin below 25%. Most CPG founders need 40%+ to cover trade spend, marketing and overheads.';
       else if(gm>=40&&nm<30)msg='Good gross margin, but broker fees are compressing net margin. Review your channel mix.';
